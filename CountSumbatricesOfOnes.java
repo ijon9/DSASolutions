@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/most-beautiful-item-for-each-query/
 class Solution {
     public int countSquares(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

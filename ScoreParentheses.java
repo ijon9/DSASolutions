@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/score-of-parentheses/?envType=daily-question&envId=2026-10-05
 class Solution {
     public int scoreOfParentheses(String s) {
         Stack<Integer> stack = new Stack<>();

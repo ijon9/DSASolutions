@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/
 class Solution {
     public long countSubstrings(String s, char c) {
         long ans = 0;

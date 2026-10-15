@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
 class Solution {
     public int nearestExit(char[][] maze, int[] entrance) {
         int m = maze.length, n = maze[0].length;

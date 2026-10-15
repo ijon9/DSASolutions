@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/most-beautiful-item-for-each-query/
 class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
         Arrays.sort(items, (a,b) -> a[0] - b[0]);

@@ -13,11 +13,12 @@ class Solution {
             int[][] next = new int[n][n];
             for(int r=0; r<n; r++) {
                 for(int c=0; c<n; c++) {
-                    if(r == i || c == i) next[r][c] = edgeMat[r][c];
-                    else if(r == c) next[r][c] = 0;
-                    else {
-                        next[r][c] = Math.min(edgeMat[r][c], edgeMat[r][i] + edgeMat[i][c]);
-                    }
+                    // if(r == i || c == i) next[r][c] = edgeMat[r][c];
+                    // else if(r == c) next[r][c] = 0;
+                    // else {
+                    //     next[r][c] = Math.min(edgeMat[r][c], edgeMat[r][i] + edgeMat[i][c]);
+                    // }
+                    next[r][c] = Math.min(edgeMat[r][c], edgeMat[r][i] + edgeMat[i][c]);
                 }
             }
             edgeMat = next;
